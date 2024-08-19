@@ -7,17 +7,17 @@ const reveiws = [
   {
     title :"Hassle Free Booking",
     subtitle :"Book hotels from our website without any hassle.",
-    icon:"/public/assets/images/like.png"
+    icon:"/assets/images/like.png"
   },
   {
     title :"28,000 Reviews",
     subtitle :"Book hotels from our website without any hassle.",
-    icon:"/public/assets/images/like.png"
+    icon:"/assets/images/star.png"
   },
   {
     title :"24/7 Support",
     subtitle :"Book hotels from our website without any hassle.",
-    icon:"/public/assets/images/like.png"
+    icon:"/assets/images/headphone.png"
   }
 ]
 export const Reviews = () => {
@@ -32,8 +32,8 @@ export const Reviews = () => {
               <div className='flex justify-around	gap-10 items-center card-container p-6' key={index}>
                 <Image 
                   src={review.icon}
-                  height={20}
-                  width={20}
+                  height={45}
+                  width={45}
                   alt='alt-image'
                 />        
               <div>
