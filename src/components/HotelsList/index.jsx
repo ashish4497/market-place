@@ -64,9 +64,12 @@ export const Hotels = () => {
                     alt='alt-image '
                   />
                <div className='px-4'>
-               <div className='my-6  '>
-                    <span className='text-base font-normal'>{hotel.tag}</span>
-                    <span className='ml-10 text-base font-normal capitalize'>Comments: {hotel.comments}</span>
+               <div className='my-6 flex justify-between'>
+                <div className='flex'>
+                  <Image src={"/assets/images/tag.png"} height={20} width={20} alt='tag'/>
+                  <span className='text-base font-normal'>{hotel.tag}</span>
+                </div>
+                    <p className='ml-10 text-base font-normal capitalize'>Comments: {hotel.comments}</p>
                   </div>
                   <h3 className='text-left text-lg font-light	mb-4'>{hotel.title}</h3>
                 </div>
