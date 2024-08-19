@@ -1,0 +1,15 @@
+.carousel .slide .legend {
+  bottom: 30%;
+  background: transparent;
+  font-size: 4.5rem;
+  opacity: 1;
+  font-weight: 700;
+}
+
+img {
+  height: revert-layer;
+  object-fit: cover;
+}
+.carousel .thumbs-wrapper {
+  margin: 0;
+}
