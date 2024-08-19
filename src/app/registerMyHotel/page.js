@@ -2,6 +2,8 @@ import React from 'react'
 
 export default function registerMyHotel() {
   return (
-    <div>registerMyHotel</div>
+    <div>
+      signUp page and signIn page
+    </div>
   )
 }
