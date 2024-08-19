@@ -1,7 +1,8 @@
 'use client'
 import React from "react";
 import {Navbar, NavbarBrand, NavbarContent, NavbarItem, NavbarMenuToggle, NavbarMenu, NavbarMenuItem, Link, Button} from "@nextui-org/react";
-// import {AcmeLogo} from "./AcmeLogo.jsx";
+import Logo from "@/../public/assets/images/resort.png";
+import Image from "next/image";
 
 export default function NaviigationBar() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
@@ -29,8 +30,8 @@ export default function NaviigationBar() {
         />
         <NavbarBrand>
         <Link href="/" color="foreground">
-          {/* <AcmeLogo /> */}
-          <p className="font-bold text-inherit">Hotel Market</p></Link>
+          <Image src={Logo} height={50} width={50} alt="logo"/>
+          <p className="font-bold text-inheri ml-4">Hotel Market</p></Link>
         </NavbarBrand>
       </NavbarContent>
       <NavbarContent className="hidden sm:flex gap-4" justify="center">
