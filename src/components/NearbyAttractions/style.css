@@ -1,0 +1,11 @@
+.attraction-banner{
+  width: 97%;
+  border: 1px solid;
+  
+}
+.react-multiple-carousel__arrow {
+  display: none;
+}
+.content-container:hover .react-multiple-carousel__arrow {
+  display: block;
+}
