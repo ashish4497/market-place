@@ -99,8 +99,7 @@ export default function NearbyAttractions() {
             )
           })}
         </Carousel>
-      </div>
-      
+      </div>    
     </div>
   )
 }
